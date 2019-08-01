@@ -9,7 +9,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<Iterative>1</Iterative>
-	<Unlock>1985</Unlock>
 	<IdealPrice>130</IdealPrice>
 	<NameGenerator>3DEditor</NameGenerator>
 	<Features>
