@@ -49,7 +49,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 	<NameGenerator>OS</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>TAPE STORAGE</Name>
+			<Name>Computer Housing</Name>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -59,8 +59,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>TAPE STORAGE BAY</Name>
-			<Dependency Software="Operating System">TAPE STORAGE</Dependency>
+			<Name>Motherboard</Name>
+			<Dependency Software="Motherboard">CHIPSET</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -70,19 +70,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>AUDIO CASSETTE</Name>
-			<Unlock>1982</Unlock>
-			<Dependency Software="Operating System">TAPE STORAGE BAY</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Forced="TRUE">
-			<Name>FLOPPY DISK STORAGE</Name>
+			<Name>GPU Slot</Name>
+			<Dependency Software="GPU">TEXT BASED</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -92,9 +81,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>5 1/4 FLOPPY DISK</Name>
-			<Unlock>1984</Unlock>
-			<Dependency Software="Operating System">FLOPPY DISK STORAGE</Dependency>
+			<Name>Memory-banks</Name>
+			<Dependency Software="Memory">RAM</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -104,78 +92,10 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>3.5 IN FLOPPY DISK</Name>
-			<Unlock>1986</Unlock>
-			<Dependency Software="Operating System">5 1/4 FLOPPY DISK</Dependency>
+			<Name>Storage Housing</Name>
+			<Dependency Software="Storage-drive">TAPE STORAGE</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Forced="TRUE">
-			<Name>MOTHERBOARD</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Forced="TRUE">
-			<Name>GRAPHICS</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Vital="TRUE">
-			<Name>TEXT BASED</Name>
-			<Dependency Software="Operating System">GRAPHICS</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature From="TEXT BASED" Vital="TRUE">
-			<Name>2D RENDERING</Name>
-			<Unlock>1982</Unlock>
-			<Dependency Software="Operating System">TEXT BASED</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>2D</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature From="2D RENDERING" Vital="TRUE">
-			<Name>3D RENDERING</Name>
-			<Unlock>1984</Unlock>
-			<Dependency Software="Operating System">2D RENDERING</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Vital="TRUE" Research="3D RENDERING">
-			<Name>VR READY</Name>
-			<Unlock>1990</Unlock>
-			<Dependency Software="Operating System">3D RENDERING</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>

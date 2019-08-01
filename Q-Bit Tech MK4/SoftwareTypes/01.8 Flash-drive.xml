@@ -1,0 +1,56 @@
+<SoftwareType>
+	<Name>Flash-drive</Name>
+	<Category>Storage</Category>
+	<Description>A Hardware Component used for putting your peripherals</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>2DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>Single Core</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Double Core</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Triple Core</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Quad Core</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>
