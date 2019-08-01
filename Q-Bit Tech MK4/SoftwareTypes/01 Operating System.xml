@@ -51,6 +51,16 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		<Feature Forced="TRUE">
 			<Name>MOTHERBOARD</Name>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>GRAPHICS</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
