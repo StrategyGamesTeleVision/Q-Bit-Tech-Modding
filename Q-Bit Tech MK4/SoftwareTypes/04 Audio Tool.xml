@@ -1,0 +1,26 @@
+<SoftwareType>
+	<Name>Audio Tool</Name>
+	<Category>Audio</Category>
+	<Description>The audio tool is for recording and mixing sound effects and music.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>100</IdealPrice>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>Audio</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Audio playback</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

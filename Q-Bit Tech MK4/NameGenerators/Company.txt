@@ -1,0 +1,28 @@
+[REPLACE]
+-start(stop)
+Apple
+Verizon
+Spectrum
+Charter
+DirecTV
+Comcast
+AT&T
+Cricket
+Cingular
+Time Warner
+Nintendo
+Sega
+Sony
+Dell
+Alienware
+Digital Storm
+Intel
+HP
+Xerox
+Motorola
+Microsoft
+IBM
+Activision
+Texas Instuments
+Atari
+Compaq

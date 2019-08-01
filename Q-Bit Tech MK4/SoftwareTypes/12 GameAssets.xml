@@ -1,0 +1,25 @@
+<SoftwareType>
+	<Name>Game Assets</Name>
+	<Category>Gaming</Category>
+	<Description></Description>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<Retention>1</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>True</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>None</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>2D art</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

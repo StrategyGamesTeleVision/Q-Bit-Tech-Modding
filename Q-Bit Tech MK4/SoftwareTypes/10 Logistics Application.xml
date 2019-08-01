@@ -1,0 +1,25 @@
+<SoftwareType>
+	<Name>Logistics Application</Name>
+	<Category>Logistics</Category>
+	<Description></Description>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<Retention>1</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>True</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>None</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Commandline</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

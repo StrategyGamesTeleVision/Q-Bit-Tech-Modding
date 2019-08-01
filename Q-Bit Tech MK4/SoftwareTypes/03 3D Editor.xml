@@ -1,0 +1,27 @@
+<SoftwareType>
+	<Name>3D Editor</Name>
+	<Category>Graphics</Category>
+	<Description>Points in space, basically</Description>
+	<Random>0.1</Random>
+	<Popularity>0.6</Popularity>
+	<Retention>0.5</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<Unlock>1985</Unlock>
+	<IdealPrice>130</IdealPrice>
+	<NameGenerator>3DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Vertex editing</Name>
+			<Description>Move points in space around on the screen</Description>
+			<Category>3D</Category>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

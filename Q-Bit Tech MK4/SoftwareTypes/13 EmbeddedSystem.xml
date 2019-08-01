@@ -1,0 +1,25 @@
+<SoftwareType>
+	<Name>Embedded System</Name>
+	<Category>Computing</Category>
+	<Description></Description>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<Retention>1</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>True</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>None</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Clock</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

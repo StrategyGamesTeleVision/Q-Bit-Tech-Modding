@@ -1,0 +1,74 @@
+<SoftwareType>
+	<Name>Game</Name>
+	<Category>Gaming</Category>
+	<Description>Interactive art.</Description>
+	<Random>0.6</Random>
+	<IdealPrice>80</IdealPrice>
+	<Categories>
+		<Category Name="RPG">
+			<Description>Role Playing Game</Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>GameRPG</NameGenerator>
+		</Category>
+		<Category Name="Adventure">
+			<Description></Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>GameAdventure</NameGenerator>
+		</Category>
+		<Category Name="Simulation">
+			<Description>You're playing one!</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>GameSimulation</NameGenerator>
+		</Category>
+		<Category Name="Sports">
+			<Description></Description>
+			<Popularity>0.7</Popularity>
+			<Retention>0.2</Retention>
+			<TimeScale>0.75</TimeScale>
+			<Iterative>0.95</Iterative>
+			<NameGenerator>GameSport</NameGenerator>
+		</Category>
+		<Category Name="RTS">
+			<Description>Real Time Strategy</Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.6</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.95</Iterative>
+			<NameGenerator>GameRTS</NameGenerator>
+		</Category>
+		<Category Name="FPS">
+			<Description>First Person Shooter</Description>
+			<Popularity>0.75</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.95</Iterative>
+			<Unlock>1990</Unlock>
+			<NameGenerator>GameFPS</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>True</OSSpecific>
+	<OSNeed>Game Engine</OSNeed>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Text-based</Name>
+			<Category>System</Category>
+			<Description>Make the player type a novel to complete the game</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

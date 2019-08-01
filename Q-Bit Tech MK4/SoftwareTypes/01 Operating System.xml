@@ -1,0 +1,62 @@
+<SoftwareType>
+	<Name>Operating System</Name>
+	<Category>Computing</Category>
+	<Description>The Operating System is the largest piece of software in Software Inc.
+Most software needs an Operating System to run on. When people stop buying a line of Operating Systems, they will also stop buying software for them.</Description>
+	<Random>0</Random>
+	<Categories>
+		<Category Name="Home OS">
+			<Description>Home Computer designed to keep your kids busy doing their non-existent homework.</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Office OS">
+			<Description>Everyone needs a computer at work to dodge their boss.</Description>
+			<Popularity>0.75</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Office Phone OS">
+			<Description>How do you expect your conference calls to go through?</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Cell Phone OS">
+			<Description>A small but useable OS for phone users in the 90s.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>1990</Unlock>
+		</Category>
+		<Category Name="Gaming OS">
+			<Description>What did you think?  Your High-scores were just in a cloud some where?</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<IdealPrice>200</IdealPrice>
+	<NameGenerator>OS</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>MOTHERBOARD</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>
