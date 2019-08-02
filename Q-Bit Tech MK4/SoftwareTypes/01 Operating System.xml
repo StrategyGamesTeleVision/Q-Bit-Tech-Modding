@@ -12,7 +12,15 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
+		<Category Name="Gaming OS">
+			<Description>What did you think?  Your High-scores were just in a cloud some where?</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
 		<Category Name="Office OS">
+			<Unlock>1990</Unlock>
 			<Description>Everyone needs a computer at work to dodge their boss.</Description>
 			<Popularity>0.75</Popularity>
 			<Retention>0.9</Retention>
@@ -20,6 +28,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Office Phone OS">
+			<Unlock>1990</Unlock>
 			<Description>How do you expect your conference calls to go through?</Description>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
@@ -27,15 +36,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Cell Phone OS">
+			<Unlock>1994</Unlock>
 			<Description>A small but useable OS for phone users in the 90s.</Description>
-			<Popularity>1</Popularity>
-			<Retention>0.8</Retention>
-			<TimeScale>0.7</TimeScale>
-			<Iterative>1</Iterative>
-			<Unlock>1990</Unlock>
-		</Category>
-		<Category Name="Gaming OS">
-			<Description>What did you think?  Your High-scores were just in a cloud some where?</Description>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -57,6 +59,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Motherboard</Name>
@@ -68,6 +73,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>GPU Slot</Name>
@@ -79,6 +87,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Memory-banks</Name>
@@ -90,6 +101,23 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Processor</Name>
+			<Dependency Software="Processor">Single-Core</Dependency>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Storage Housing</Name>
@@ -101,6 +129,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

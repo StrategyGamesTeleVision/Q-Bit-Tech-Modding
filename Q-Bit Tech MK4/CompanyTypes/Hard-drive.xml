@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Hard-drive</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>1</Max>
+	<Types>
+		<Type Software="Hard-drive">1</Type>
+	</Types>
+</CompanyType>
