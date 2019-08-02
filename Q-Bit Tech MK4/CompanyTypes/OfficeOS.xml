@@ -1,9 +1,9 @@
 <CompanyType>
-	<Specialization>Computer Operating Systems</Specialization>
+	<Specialization>Computer1 Operating Systems</Specialization>
 	<Force>Operating System,Office OS</Force>
 	<PerYear>0.2</PerYear>
-	<Min>4</Min>
-	<Max>6</Max>
+	<Min>2</Min>
+	<Max>3</Max>
 	<Types>
 		<Type Software="Operating System" Category="Office OS">1</Type>
 	</Types>

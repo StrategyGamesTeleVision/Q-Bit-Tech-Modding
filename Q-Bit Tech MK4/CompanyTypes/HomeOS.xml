@@ -2,7 +2,7 @@
 	<Specialization>Computer Operating Systems</Specialization>
 	<Force>Operating System,Home OS</Force>
 	<PerYear>0.3</PerYear>
-	<Min>4</Min>
+	<Min>3</Min>
 	<Max>6</Max>
 	<Types>
 		<Type Software="Operating System" Category="Home OS">1</Type>
