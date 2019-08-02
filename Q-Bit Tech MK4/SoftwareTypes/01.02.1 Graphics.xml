@@ -1,19 +1,45 @@
 <SoftwareType>
-	<Name>GPU</Name>
+	<Name>Graphics</Name>
 	<Category>Hardware</Category>
 	<Description>A Hardware Component used for putting your peripherals</Description>
 	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Text Based">
+			<Description>Socket Based Motherboards.</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="2D Rendering">
+			<Description>Pin Based Motherboards.</Description>
+			<Unlock>1986</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="3D Rendering">
+			<Description>Pin Based Motherboards.</Description>
+			<Unlock>1992</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
 	<Popularity>0.7</Popularity>
 	<Retention>0.5</Retention>
 	<IdealPrice>80</IdealPrice>
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
-	<InHouse>True</InHouse>
+	<InHouse>False</InHouse>
 	<Iterative>1</Iterative>
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>TEXT BASED</Name>
+			<Dependency Software="Text Editor">Text Rendering</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -21,11 +47,12 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Text Based">1980</SoftwareCategory>
 		</Feature>
-		<Feature From="TEXT BASED" Vital="TRUE">
+		<Feature Vital="TRUE">
 			<Name>2D RENDERING</Name>
 			<Unlock>1982</Unlock>
-			<Dependency Software="GPU">TEXT BASED</Dependency>
+			<Dependency Software="2D Editor">2D Rendering</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>2D</Category>
 			<DevTime>8</DevTime>
@@ -33,11 +60,12 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="2D Rendering">1982</SoftwareCategory>
 		</Feature>
-		<Feature From="2D RENDERING" Vital="TRUE">
+		<Feature Vital="TRUE">
 			<Name>3D RENDERING</Name>
 			<Unlock>1984</Unlock>
-			<Dependency Software="GPU">2D RENDERING</Dependency>
+			<Dependency Software="3D Editor">3D Rendering</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -45,11 +73,12 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="3D Rendering">1984</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE" Research="3D RENDERING">
 			<Name>VR READY</Name>
 			<Unlock>1990</Unlock>
-			<Dependency Software="GPU">3D RENDERING</Dependency>
+			<Dependency Software="Graphics">3D RENDERING</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -57,6 +86,7 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="3D Rendering">1990</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

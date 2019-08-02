@@ -2,6 +2,7 @@
 	<Name>Game</Name>
 	<Category>Gaming</Category>
 	<Description>Interactive art.</Description>
+	<Unlock>1986</Unlock>
 	<Random>0.6</Random>
 	<IdealPrice>80</IdealPrice>
 	<Categories>

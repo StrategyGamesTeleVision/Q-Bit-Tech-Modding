@@ -2,6 +2,7 @@
 	<Name>Antivirus</Name>
 	<Category>Security</Category>
 	<Description>Protecting computers from digital troublemakers since it became profitable to do so.</Description>
+	<Unlock>3000</Unlock>
 	<Random>0.3</Random>
 	<Popularity>0.5</Popularity>
 	<Retention>0.5</Retention>

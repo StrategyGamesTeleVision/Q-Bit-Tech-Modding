@@ -1,0 +1,168 @@
+<SoftwareType>
+	<Name>Storage Drives</Name>
+	<Category>Data</Category>
+	<Description>A unit that supplies power to your motherboard.</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Tape-Drive">
+			<Description>10mm Fan</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Hard-Drive">
+			<Unlock>1986</Unlock>
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Sata-Drive">
+			<Unlock>1992</Unlock>
+			<Description>10mm Fan</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Flash-Drive">
+			<Unlock>1998</Unlock>
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>2DEditor</NameGenerator>
+	<Features>
+		<Feature Forces="TRUE">
+			<Name>CASSETTE TAPE</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Tape-Drive">1980</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>CT 1000</Name>
+			<Dependency Software="Storage Drives">CASSETTE TAPE</Dependency>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Tape-Drive">1980</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>5.25 IN FLOPPY DISK</Name>
+			<Unlock>1982</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Tape-Drive">1982</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>3.5 IN FLOPPY DISK</Name>
+			<Unlock>1984</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Tape-Drive">1984</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>HARD DRIVE</Name>
+			<Unlock>1986</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Hard-Drive">1986</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>10GB HD4500</Name>
+			<Dependency Software="Storage Drives">HARD DRIVE</Dependency>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Hard-Drive">1986</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>SATA DRIVE</Name>
+			<Unlock>1992</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Sata-Drive">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>100GB SSD6000</Name>
+			<Dependency Software="Storage Drives">SATA DRIVE</Dependency>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Sata-Drive">1992</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>FLASH DRIVE</Name>
+			<Unlock>1998</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Flash-Drive">1998</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>1TB FD9000</Name>
+			<Dependency Software="Storage Drives">FLASH DRIVE</Dependency>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Flash-Drive">1998</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -5,5 +5,6 @@
 	<Max>6</Max>
 	<Types>
 		<Type Software="Game">0.5</Type>
+		<Type Software="Game Engine">1</Type>
 	</Types>
 </CompanyType>

@@ -21,5 +21,36 @@
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
+		<Feature From="Commandline">
+			<Name>GUI</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Database</Name>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Third-party integration</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
 	</Features>
 </SoftwareType>

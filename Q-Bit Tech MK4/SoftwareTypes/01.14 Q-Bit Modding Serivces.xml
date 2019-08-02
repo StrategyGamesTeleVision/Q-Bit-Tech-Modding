@@ -2,6 +2,7 @@
 	<Name>Q-Bit Modding Services</Name>
 	<Category>Graphics</Category>
 	<Description>Program that allows you to handle 2 dimensional arrays of color information</Description>
+	<Unlock>3000</Unlock>
 	<Random>0.1</Random>
 	<Popularity>0.7</Popularity>
 	<Retention>0.5</Retention>

@@ -2,6 +2,7 @@
 <Name>CMS</Name>
 	<Category>Productivity</Category>
 	<Description>A Content Management System is mostly used for the very specific task of managing content</Description>
+	<Unlock>3000</Unlock>
 	<Random>0</Random>
 	<Categories>
 		<Category Name="Web Publishing">

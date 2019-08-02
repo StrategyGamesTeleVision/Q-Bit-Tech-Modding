@@ -6,5 +6,6 @@
 	<Types>
 		<Type Software="Motherboard">1</Type>
 		<Type Software="Power Supply">1</Type>
+		<Type Software="Keyboard">1</Type>
 	</Types>
 </CompanyType>

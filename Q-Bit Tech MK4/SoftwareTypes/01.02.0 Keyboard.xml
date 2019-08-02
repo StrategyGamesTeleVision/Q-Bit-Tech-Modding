@@ -1,19 +1,27 @@
 <SoftwareType>
-	<Name>Motherboard</Name>
+	<Name>Keyboard</Name>
 	<Category>Hardware</Category>
 	<Description>A Hardware Component used for putting your peripherals</Description>
 	<Random>0.1</Random>
 	<Categories>
-		<Category Name="Socket 1">
+		<Category Name="QWERTY">
 			<Description>Socket Based Motherboards.</Description>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
-		<Category Name="Pin 1">
+		<Category Name="Gaming">
 			<Description>Pin Based Motherboards.</Description>
 			<Unlock>1986</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Ergo-Dynamic">
+			<Description>Pin Based Motherboards.</Description>
+			<Unlock>1992</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -30,42 +38,37 @@
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>Chipset</Name>
-			<Description>Actually display an image on the screen</Description>
+			<Name>QWERTY</Name>
+			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
-			<Innovation>1</Innovation>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
+			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="QWERTY">1970</SoftwareCategory>
 		</Feature>
-		<Feature>
-			<Name>Socket 1</Name>
-			<Dependency Software="Motherboard">Chipset</Dependency>
-			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
-			<Dependency Software="Power Supply">500watts 24</Dependency>
-			<Description>Actually display an image on the screen</Description>
+		<Feature Forced="TRUE">
+			<Name>Gaming</Name>
+			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
-			<Innovation>1</Innovation>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
+			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Socket 1">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming">1986</SoftwareCategory>
 		</Feature>
-		<Feature>
-			<Name>Pin 1</Name>
-			<Dependency Software="Motherboard">Chipset</Dependency>
-			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
-			<Dependency Software="Power Supply">500watts 24</Dependency>
-			<Description>Actually display an image on the screen</Description>
+		<Feature Forced="TRUE">
+			<Name>Ergo-Dynamic</Name>
+			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
-			<Innovation>1</Innovation>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
+			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Pin 1">1986</SoftwareCategory>
+			<SoftwareCategory Category="Ergo-Dynamic">1994</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

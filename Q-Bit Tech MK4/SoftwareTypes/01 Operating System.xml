@@ -12,7 +12,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Gaming OS">
-			<Unlock>1981</Unlock>
+			<Unlock>1986</Unlock>
 			<Description>What did you think?  Your High-scores were just in a cloud some where?</Description>
 			<Popularity>0.8</Popularity>
 			<Retention>0.8</Retention>
@@ -20,7 +20,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Office OS">
-			<Unlock>1990</Unlock>
+			<Unlock>1992</Unlock>
 			<Description>Everyone needs a computer at work to dodge their boss.</Description>
 			<Popularity>0.9</Popularity>
 			<Retention>0.9</Retention>
@@ -28,7 +28,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Office Phone OS">
-			<Unlock>1990</Unlock>
+			<Unlock>1992</Unlock>
 			<Description>How do you expect your conference calls to go through?</Description>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
@@ -36,7 +36,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Cell Phone OS">
-			<Unlock>1994</Unlock>
+			<Unlock>1998</Unlock>
 			<Description>A small but useable OS for phone users in the 90s.</Description>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
@@ -59,9 +59,68 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Keyboard Type</Name>
+			<Description>Your Mainframe.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Basic</Name>
+			<Dependency Software="Operating System">Keyboard Type</Dependency>
+			<Dependency Software="Keyboard">QWERTY</Dependency>
+			<Description>Your Mainframe.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Basic">
+			<Name>Ergo-Dynamic</Name>
+			<Dependency Software="Operating System">Keyboard Type</Dependency>
+			<Dependency Software="Keyboard">Ergo-Dynamic</Dependency>
+			<Description>Your Mainframe.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Ergo-Dynamic">
+			<Name>Gaming</Name>
+			<Unlock>1981</Unlock>
+			<Dependency Software="Operating System">Keyboard Type</Dependency>
+			<Dependency Software="Keyboard">Gaming</Dependency>
+			<Description>Your Mainframe.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Motherboard Type</Name>
@@ -72,14 +131,15 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Socket 1</Name>
 			<Dependency Software="Operating System">Motherboard Type</Dependency>
 			<Dependency Software="Motherboard">Socket 1</Dependency>
+			<Dependency Software="Power Supply">500watts 24</Dependency>
 			<Description>The largest peice of hardware in the Mainframe</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -87,13 +147,15 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature From="Socket 1">
 			<Name>Pin 1</Name>
 			<Dependency Software="Operating System">Motherboard Type</Dependency>
 			<Dependency Software="Motherboard">Pin 1</Dependency>
+			<Dependency Software="Power Supply">500watts 48</Dependency>
 			<Description>The largest peice of hardware in the Mainframe</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -101,11 +163,12 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>GPU Type</Name>
+			<Name>Graphics Type</Name>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -113,15 +176,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Text Editor</Name>
-			<Dependency Software="Operating System">GPU Type</Dependency>
-			<Dependency Software="GPU">TEXT BASED</Dependency>
-			<Dependency Software="Power Supply">500watts 24</Dependency>
+			<Dependency Software="Operating System">Graphics Type</Dependency>
+			<Dependency Software="Graphics">TEXT BASED</Dependency>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -129,14 +191,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature From="Text Editor">
 			<Name>2D Editor</Name>
-			<Dependency Software="Operating System">GPU Type</Dependency>
-			<Dependency Software="GPU">2D RENDERING</Dependency>
+			<Dependency Software="Operating System">Graphics Type</Dependency>
+			<Dependency Software="Graphics">2D RENDERING</Dependency>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -144,14 +206,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature From="2D Editor">
 			<Name>3D Editor</Name>
-			<Dependency Software="Operating System">GPU Type</Dependency>
-			<Dependency Software="GPU">3D RENDERING</Dependency>
+			<Dependency Software="Operating System">Graphics Type</Dependency>
+			<Dependency Software="Graphics">3D RENDERING</Dependency>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -159,9 +221,9 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Memory Type</Name>
@@ -172,13 +234,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>SRAM</Name>
 			<Dependency Software="Operating System">Memory Type</Dependency>
+			<Dependency Software="Memory">SRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -186,12 +249,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature>
+		<Feature From="SRAM">
 			<Name>DRAM</Name>
+			<Dependency Software="Operating System">Memory Type</Dependency>
+			<Dependency Software="Memory">DRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -199,12 +264,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature>
+		<Feature From="DRAM">
 			<Name>SDRAM</Name>
+			<Dependency Software="Operating System">Memory Type</Dependency>
+			<Dependency Software="Memory">SDRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -212,12 +279,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature>
+		<Feature From="SDRAM">
 			<Name>SDR SDRAM</Name>
+			<Dependency Software="Operating System">Memory Type</Dependency>
+			<Dependency Software="Memory">SDR SDRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -225,12 +294,14 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature>
+		<Feature From="SDR SDRAM">
 			<Name>DDR SDRAM</Name>
+			<Dependency Software="Operating System">Memory Type</Dependency>
+			<Dependency Software="Memory">DDR SDRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -238,13 +309,12 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Processor Type</Name>
-			<Dependency Software="Processor">Single-Core</Dependency>
 			<Description>The Heartbeat of your computer.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -252,13 +322,27 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Single-Core</Name>
+			<Dependency Software="Operating System">Processor Type</Dependency>
+			<Dependency Software="Processor">L1 100KB</Dependency>
+			<Description>The Heartbeat of your computer.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Storage Type</Name>
-			<Dependency Software="Storage-drive">TAPE STORAGE</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -266,9 +350,99 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Tape Storage1</Name>
+			<Dependency Software="Operating System">Storage Type</Dependency>
+			<Dependency Software="Storage Drives">CASSETTE TAPE</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Tape Storage1">
+			<Name>Tape Storage2</Name>
+			<Dependency Software="Operating System">Storage Type</Dependency>
+			<Dependency Software="Storage Drives">5.25 IN FLOPPY DISK</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Tape Storage2">
+			<Name>Tape Storage3</Name>
+			<Dependency Software="Operating System">Storage Type</Dependency>
+			<Dependency Software="Storage Drives">3.5 IN FLOPPY DISK</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>HD Storage1</Name>
+			<Dependency Software="Operating System">Storage Type</Dependency>
+			<Dependency Software="Storage Drives">10GB HD4500</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="HD Storage1">
+			<Name>SSD Storage1</Name>
+			<Dependency Software="Operating System">Storage Type</Dependency>
+			<Dependency Software="Storage Drives">100GB SSD6000</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="SSD Storage1">
+			<Name>FD Storage1</Name>
+			<Dependency Software="Operating System">Storage Type</Dependency>
+			<Dependency Software="Storage Drives">1TB FD9000</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Power Supply</Name>
@@ -280,9 +454,9 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
-			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

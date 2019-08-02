@@ -2,9 +2,9 @@
 	<Specialization>Framework Tools</Specialization>
 	<PerYear>0.2</PerYear>
 	<Min>2</Min>
-	<Max>4</Max>
+	<Max>3</Max>
 	<Types>
-		<Type Software="GPU">1</Type>
+		<Type Software="Graphics">1</Type>
 		<Type Software="Memory">1</Type>
 		<Type Software="Processor">1</Type>
 		<Type Software="Heat Sinks">1</Type>

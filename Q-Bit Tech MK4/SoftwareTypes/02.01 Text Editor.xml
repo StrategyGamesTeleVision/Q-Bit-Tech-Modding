@@ -1,8 +1,7 @@
 <SoftwareType>
-	<Name>Office Suite 101</Name>
+	<Name>Text Editor</Name>
 	<Category>Graphics</Category>
 	<Description>Program that allows you to handle 2 dimensional arrays of color information</Description>
-	<Unlock>3000</Unlock>
 	<Random>0.1</Random>
 	<Popularity>0.7</Popularity>
 	<Retention>0.5</Retention>
@@ -15,9 +14,9 @@
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>Image rendering</Name>
+			<Name>Text Rendering</Name>
 			<Description>Actually display an image on the screen</Description>
-			<Category>2D</Category>
+			<Category>System</Category>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>

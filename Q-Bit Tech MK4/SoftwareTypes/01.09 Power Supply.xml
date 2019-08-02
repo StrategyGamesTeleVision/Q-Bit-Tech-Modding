@@ -13,6 +13,7 @@
 		</Category>
 		<Category Name="600w Power Supply">
 			<Description>20mm Fan</Description>
+			<Unlock>1985</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -20,6 +21,7 @@
 		</Category>
 		<Category Name="700w Power Supply">
 			<Description>20mm Fan</Description>
+			<Unlock>1990</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -27,6 +29,7 @@
 		</Category>
 		<Category Name="800w Power Supply">
 			<Description>20mm Fan</Description>
+			<Unlock>1995</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -34,6 +37,7 @@
 		</Category>
 		<Category Name="900w Power Supply">
 			<Description>20mm Fan</Description>
+			<Unlock>2000</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -41,6 +45,7 @@
 		</Category>
 		<Category Name="1000w Power Supply">
 			<Description>20mm Fan</Description>
+			<Unlock>2005</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -69,7 +74,7 @@
 		</Feature>
 		<Feature Research="500watts 24" Vital="TRUE">
 			<Name>500watts 48</Name>
-			<Unlock>1980</Unlock>
+			<Unlock>1981</Unlock>
 			<Description>.</Description>
 			<Category>Electric</Category>
 			<DevTime>8</DevTime>
@@ -92,28 +97,6 @@
 		</Feature>
 		<Feature Research="600watts 24" Vital="TRUE">
 			<Name>600watts 48</Name>
-			<Unlock>1982</Unlock>
-			<Description>.</Description>
-			<Category>Electric</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature>
-			<Name>700watts 24</Name>
-			<Unlock>1983</Unlock>
-			<Description>.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Research="700watts 24" Vital="TRUE">
-			<Name>700watts 48</Name>
 			<Unlock>1984</Unlock>
 			<Description>.</Description>
 			<Category>Electric</Category>
@@ -124,8 +107,8 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>800watts 24</Name>
-			<Unlock>1985</Unlock>
+			<Name>700watts 24</Name>
+			<Unlock>1984</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -134,8 +117,8 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature Research="800watts 24" Vital="TRUE">
-			<Name>800watts 48</Name>
+		<Feature Research="700watts 24" Vital="TRUE">
+			<Name>700watts 48</Name>
 			<Unlock>1986</Unlock>
 			<Description>.</Description>
 			<Category>Electric</Category>
@@ -146,8 +129,8 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>900watts 24</Name>
-			<Unlock>1987</Unlock>
+			<Name>800watts 24</Name>
+			<Unlock>1986</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -156,8 +139,8 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature Research="900watts 24" Vital="TRUE">
-			<Name>900watts 48</Name>
+		<Feature Research="800watts 24" Vital="TRUE">
+			<Name>800watts 48</Name>
 			<Unlock>1988</Unlock>
 			<Description>.</Description>
 			<Category>Electric</Category>
@@ -168,8 +151,30 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
+			<Name>900watts 24</Name>
+			<Unlock>1988</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="900watts 24" Vital="TRUE">
+			<Name>900watts 48</Name>
+			<Unlock>1990</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
 			<Name>1000watts 24</Name>
-			<Unlock>1989</Unlock>
+			<Unlock>1990</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -180,7 +185,7 @@
 		</Feature>
 		<Feature Research="1000watts 24" Vital="TRUE">
 			<Name>1000watts 48</Name>
-			<Unlock>1990</Unlock>
+			<Unlock>1992</Unlock>
 			<Description>.</Description>
 			<Category>Electric</Category>
 			<DevTime>8</DevTime>

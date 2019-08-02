@@ -3,6 +3,15 @@
 	<Category>Hardware</Category>
 	<Description>A Hardware Component used for putting your peripherals</Description>
 	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Single-Core">
+			<Description>.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
 	<Popularity>0.7</Popularity>
 	<Retention>0.5</Retention>
 	<IdealPrice>80</IdealPrice>
@@ -13,44 +22,26 @@
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE" Vital="TRUE">
-			<Name>Single-Core</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Name>Single-Core Type</Name>
+			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<SoftwareCategory Category="Single-Core">1980</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>Double-Core</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Name>L1 100KB</Name>
+			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Vital="TRUE">
-			<Name>Triple-Core</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature Vital="TRUE">
-			<Name>Quad-Core</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<SoftwareCategory Category="Single-Core">1980</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>
