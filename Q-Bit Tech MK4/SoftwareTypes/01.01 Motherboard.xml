@@ -24,7 +24,7 @@
 	<IdealPrice>80</IdealPrice>
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
-	<InHouse>True</InHouse>
+	<InHouse>False</InHouse>
 	<Iterative>1</Iterative>
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
