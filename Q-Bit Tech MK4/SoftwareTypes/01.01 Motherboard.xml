@@ -1,0 +1,70 @@
+<SoftwareType>
+	<Name>Motherboard</Name>
+	<Category>Hardware</Category>
+	<Description>A Hardware Component used for putting your peripherals</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Socket 1">
+			<Description>Socket Based Motherboards.</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Pin 1">
+			<Description>Pin Based Motherboards.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>2DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Chipset</Name>
+			<Description>Actually display an image on the screen</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Socket1</Name>
+			<Dependency Software="Motherboard">Chipset</Dependency>
+			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
+			<Dependency Software="Power Supply">500watts 24</Dependency>
+			<Description>Actually display an image on the screen</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Socket 1">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Pin1</Name>
+			<Dependency Software="Motherboard">Chipset</Dependency>
+			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
+			<Dependency Software="Power Supply">500watts 24</Dependency>
+			<Description>Actually display an image on the screen</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Pin 1">0</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

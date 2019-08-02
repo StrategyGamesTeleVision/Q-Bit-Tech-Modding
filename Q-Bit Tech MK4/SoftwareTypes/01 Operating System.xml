@@ -6,22 +6,23 @@
 	<Categories>
 		<Category Name="Home OS">
 			<Description>Home Computer designed to keep your kids busy doing their non-existent homework.</Description>
-			<Popularity>0.95</Popularity>
+			<Popularity>1</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Gaming OS">
+			<Unlock>1981</Unlock>
 			<Description>What did you think?  Your High-scores were just in a cloud some where?</Description>
-			<Popularity>1</Popularity>
+			<Popularity>0.8</Popularity>
 			<Retention>0.8</Retention>
-			<TimeScale>0.7</TimeScale>
+			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Office OS">
 			<Unlock>1990</Unlock>
 			<Description>Everyone needs a computer at work to dodge their boss.</Description>
-			<Popularity>0.75</Popularity>
+			<Popularity>0.9</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>0.8</TimeScale>
 			<Iterative>1</Iterative>
@@ -58,13 +59,13 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Motherboard Type</Name>
-			<Dependency Software="Motherboard">CHIPSET</Dependency>
+			<Dependency Software="Motherboard">Chipset</Dependency>
 			<Description>The largest peice of hardware in the Mainframe</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -72,8 +73,8 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -86,13 +87,13 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Memory Type</Name>
-			<Dependency Software="Memory">RAM</Dependency>
+			<Dependency Software="Memory">SRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -100,8 +101,8 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -114,8 +115,8 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -128,8 +129,8 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -142,8 +143,8 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 	</Features>

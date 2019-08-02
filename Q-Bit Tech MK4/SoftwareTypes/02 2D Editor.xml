@@ -7,6 +7,7 @@
 	<Retention>0.5</Retention>
 	<IdealPrice>80</IdealPrice>
 	<OSSpecific>True</OSSpecific>
+	<OSLimit>Home OS</OSLimit>
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<Iterative>1</Iterative>

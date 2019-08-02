@@ -1,0 +1,193 @@
+<SoftwareType>
+	<Name>Power Supply</Name>
+	<Category>Power</Category>
+	<Description>A unit that supplies power to your motherboard.</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="500w Power Supply">
+			<Description>10mm Fan</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="600w Power Supply">
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="700w Power Supply">
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="800w Power Supply">
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="900w Power Supply">
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="1000w Power Supply">
+			<Description>20mm Fan</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>2DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>500watts 24</Name>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="500w Power Supply">0</SoftwareCategory>
+		</Feature>
+		<Feature Research="500watts 24" Vital="TRUE">
+			<Name>500watts 48</Name>
+			<Unlock>1980</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="500w Power Supply">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>600watts 24</Name>
+			<Unlock>1981</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="600watts 24" Vital="TRUE">
+			<Name>600watts 48</Name>
+			<Unlock>1982</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>700watts 24</Name>
+			<Unlock>1983</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="700watts 24" Vital="TRUE">
+			<Name>700watts 48</Name>
+			<Unlock>1984</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>800watts 24</Name>
+			<Unlock>1985</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="800watts 24" Vital="TRUE">
+			<Name>800watts 48</Name>
+			<Unlock>1986</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>900watts 24</Name>
+			<Unlock>1987</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="900watts 24" Vital="TRUE">
+			<Name>900watts 48</Name>
+			<Unlock>1988</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>1000watts 24</Name>
+			<Unlock>1989</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="1000watts 24" Vital="TRUE">
+			<Name>1000watts 48</Name>
+			<Unlock>1990</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>
