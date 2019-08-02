@@ -1,7 +1,7 @@
 <SoftwareType>
-	<Name>Memory</Name>
+	<Name>GPU</Name>
 	<Category>Hardware</Category>
-	<Description>Memory for your computer so YOUR memory does't have to.</Description>
+	<Description>A Hardware Component used for putting your peripherals</Description>
 	<Random>0.1</Random>
 	<Popularity>0.7</Popularity>
 	<Retention>0.5</Retention>
@@ -13,7 +13,7 @@
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE" Vital="TRUE">
-			<Name>SRAM 100</Name>
+			<Name>TEXT BASED</Name>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -22,20 +22,22 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="SRAM 100">
-			<Name>DRAM 100</Name>
+		<Feature From="TEXT BASED" Vital="TRUE">
+			<Name>2D RENDERING</Name>
 			<Unlock>1982</Unlock>
+			<Dependency Software="GPU">TEXT BASED</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
+			<Category>2D</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="DRAM 100">
-			<Name>SDRAM 100</Name>
+		<Feature From="2D RENDERING" Vital="TRUE">
+			<Name>3D RENDERING</Name>
 			<Unlock>1984</Unlock>
+			<Dependency Software="GPU">2D RENDERING</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -44,20 +46,10 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="SDRAM 100">
-			<Name>SDR SDRAM 100</Name>
-			<Unlock>1986</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature From="SDR SDRAM 100">
-			<Name>DDR SDRAM 100</Name>
-			<Unlock>1988</Unlock>
+		<Feature Vital="TRUE" Research="3D RENDERING">
+			<Name>VR READY</Name>
+			<Unlock>1990</Unlock>
+			<Dependency Software="GPU">3D RENDERING</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>

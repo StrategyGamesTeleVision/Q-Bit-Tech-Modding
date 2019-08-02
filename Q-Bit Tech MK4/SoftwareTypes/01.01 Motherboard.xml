@@ -39,7 +39,7 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>Socket1</Name>
+			<Name>Socket 1</Name>
 			<Dependency Software="Motherboard">Chipset</Dependency>
 			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
 			<Dependency Software="Power Supply">500watts 24</Dependency>
@@ -53,7 +53,7 @@
 			<SoftwareCategory Category="Socket 1">0</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Pin1</Name>
+			<Name>Pin 1</Name>
 			<Dependency Software="Motherboard">Chipset</Dependency>
 			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
 			<Dependency Software="Power Supply">500watts 24</Dependency>

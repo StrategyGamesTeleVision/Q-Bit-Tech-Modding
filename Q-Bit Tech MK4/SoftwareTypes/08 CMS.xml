@@ -10,7 +10,7 @@
 			<Retention>0.6</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
-			<Unlock>1992</Unlock>
+			<Unlock>3000</Unlock>
 			<IdealPrice>70</IdealPrice>
 			<NameGenerator>WebPublishing</NameGenerator>
 		</Category>
@@ -20,6 +20,7 @@
 			<Retention>0.95</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<Unlock>3000</Unlock>
 			<IdealPrice>130</IdealPrice>
 			<NameGenerator>Financial</NameGenerator>
 		</Category>
@@ -29,6 +30,7 @@
 			<Retention>0.8</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<Unlock>3000</Unlock>
 			<IdealPrice>70</IdealPrice>
 			<NameGenerator>Workflow</NameGenerator>
 		</Category>
@@ -36,6 +38,7 @@
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
+	<Unlock>3000</Unlock>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>File management</Name>

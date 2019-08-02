@@ -1,8 +1,8 @@
 <CompanyType>
 	<Specialization>Antivirus</Specialization>
-	<PerYear>0.2</PerYear>
+	<PerYear>0.0</PerYear>
 	<Min>1</Min>
-	<Max>1</Max>
+	<Max>3</Max>
 	<Types>
 		<Type Software="Antivirus">1</Type>
 	</Types>

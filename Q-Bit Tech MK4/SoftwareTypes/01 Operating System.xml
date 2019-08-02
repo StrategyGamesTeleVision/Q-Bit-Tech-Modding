@@ -65,7 +65,6 @@
 		</Feature>
 		<Feature>
 			<Name>Motherboard Type</Name>
-			<Dependency Software="Motherboard">Chipset</Dependency>
 			<Description>The largest peice of hardware in the Mainframe</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -78,8 +77,81 @@
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
+			<Name>Socket 1</Name>
+			<Dependency Software="Operating System">Motherboard Type</Dependency>
+			<Dependency Software="Motherboard">Socket 1</Dependency>
+			<Description>The largest peice of hardware in the Mainframe</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+		</Feature>
+		<Feature From="Socket 1">
+			<Name>Pin 1</Name>
+			<Dependency Software="Operating System">Motherboard Type</Dependency>
+			<Dependency Software="Motherboard">Pin 1</Dependency>
+			<Description>The largest peice of hardware in the Mainframe</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+		</Feature>
+		<Feature>
 			<Name>GPU Type</Name>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Text Editor</Name>
+			<Dependency Software="Operating System">GPU Type</Dependency>
 			<Dependency Software="GPU">TEXT BASED</Dependency>
+			<Dependency Software="Power Supply">500watts 24</Dependency>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature From="Text Editor">
+			<Name>2D Editor</Name>
+			<Dependency Software="Operating System">GPU Type</Dependency>
+			<Dependency Software="GPU">2D RENDERING</Dependency>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature From="2D Editor">
+			<Name>3D Editor</Name>
+			<Dependency Software="Operating System">GPU Type</Dependency>
+			<Dependency Software="GPU">3D RENDERING</Dependency>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -93,7 +165,72 @@
 		</Feature>
 		<Feature>
 			<Name>Memory Type</Name>
-			<Dependency Software="Memory">SRAM 100</Dependency>
+			<Description>Without memory how will your information be stored and recalled for later use?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>SRAM</Name>
+			<Dependency Software="Operating System">Memory Type</Dependency>
+			<Description>Without memory how will your information be stored and recalled for later use?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>DRAM</Name>
+			<Description>Without memory how will your information be stored and recalled for later use?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>SDRAM</Name>
+			<Description>Without memory how will your information be stored and recalled for later use?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>SDR SDRAM</Name>
+			<Description>Without memory how will your information be stored and recalled for later use?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1970</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1981</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>DDR SDRAM</Name>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>

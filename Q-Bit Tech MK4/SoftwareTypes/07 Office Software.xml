@@ -9,6 +9,7 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<Iterative>1</Iterative>
+	<Unlock>3000</Unlock>
 	<IdealPrice>100</IdealPrice>
 	<NameGenerator>Office</NameGenerator>
 	<Features>
