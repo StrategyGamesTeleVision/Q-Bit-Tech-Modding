@@ -1,8 +1,7 @@
 <SoftwareType>
 	<Name>Operating System</Name>
 	<Category>Computing</Category>
-	<Description>The Operating System is the largest piece of software in Software Inc.
-Most software needs an Operating System to run on. When people stop buying a line of Operating Systems, they will also stop buying software for them.</Description>
+	<Description>The Software that will run your programs.</Description>
 	<Random>0</Random>
 	<Categories>
 		<Category Name="Home OS">
@@ -52,7 +51,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Computer Housing</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>Your Mainframe.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -64,9 +63,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Motherboard</Name>
+			<Name>Motherboard Type</Name>
 			<Dependency Software="Motherboard">CHIPSET</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>The largest peice of hardware in the Mainframe</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -78,9 +77,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>GPU Slot</Name>
+			<Name>GPU Type</Name>
 			<Dependency Software="GPU">TEXT BASED</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -92,9 +91,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Memory-banks</Name>
+			<Name>Memory Type</Name>
 			<Dependency Software="Memory">RAM</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -106,9 +105,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Processor</Name>
+			<Name>Processor Type</Name>
 			<Dependency Software="Processor">Single-Core</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>The Heartbeat of your computer.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -120,9 +119,23 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Storage Housing</Name>
+			<Name>Storage Type</Name>
 			<Dependency Software="Storage-drive">TAPE STORAGE</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">0</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Power Supply</Name>
+			<Dependency Software="Power Supply">500watts 24</Dependency>
+			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
