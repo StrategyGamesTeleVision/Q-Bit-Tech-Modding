@@ -12,8 +12,152 @@
 	<Iterative>1</Iterative>
 	<NameGenerator>Audio</NameGenerator>
 	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>Audio-Playback</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
 		<Feature Forced="TRUE">
-			<Name>Audio playback</Name>
+			<Name>Line-In</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Line-Out</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Line-Out" Vital="TRUE">
+			<Name>Dual-Channel</Name>
+			<Dependency Software="Audio Tool">Line-In</Dependency>
+			<Dependency Software="Audio Tool">Line-Out</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Sound-Mixer</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Sound-Mixer" Vital="TRUE">
+			<Name>Music-Editor</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Audio-Recording</Name>
+			<Dependency Software="Audio Tool">Audio-Playback</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>8-Bit Audio</Name>
+			<Unlock>1986</Unlock>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="8-Bit Audio">
+			<Name>16-Bit Audio</Name>
+			<Unlock>1992</Unlock>
+			<Dependency Software="Audio Tool">8-Bit Audio</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="16-Bit Audio">
+			<Name>Audio-Compression</Name>
+			<Unlock>1998</Unlock>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD Audio</Name>
+			<Dependency Software="Audio Tool">16-Bit Audio</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Music Studio</Name>
+			<Dependency Software="Audio Tool">Music-Editor</Dependency>
+			<Dependency Software="Audio Tool">Dual-Channel</Dependency>
+			<Dependency Software="Audio Tool">Audio-Recording</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD Music Studio</Name>
+			<Dependency Software="Audio Tool">Music Studio</Dependency>
+			<Dependency Software="Audio Tool">Surround Sound</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="16-Bit Audio">
+			<Name>Surround Sound</Name>
+			<Dependency Software="Audio Tool">HD Audio</Dependency>
 			<Category>Audio</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>

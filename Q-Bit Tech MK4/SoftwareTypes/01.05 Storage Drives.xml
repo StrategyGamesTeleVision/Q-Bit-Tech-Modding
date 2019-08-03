@@ -4,8 +4,24 @@
 	<Description>A unit that supplies power to your motherboard.</Description>
 	<Random>0.1</Random>
 	<Categories>
-		<Category Name="Tape-Drive">
+		<Category Name="Cassette Bay">
 			<Description>10mm Fan</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="5 1/4 Bay">
+			<Description>10mm Fan</Description>
+			<Unlock>1982</Unlock>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="3.5 Bay">
+			<Description>10mm Fan</Description>
+			<Unlock>1984</Unlock>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
@@ -45,7 +61,7 @@
 	<Iterative>1</Iterative>
 	<NameGenerator>2DEditor</NameGenerator>
 	<Features>
-		<Feature Forces="TRUE">
+		<Feature Forced="TRUE">
 			<Name>CASSETTE TAPE</Name>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
@@ -54,19 +70,7 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Tape-Drive">1980</SoftwareCategory>
-		</Feature>
-		<Feature>
-			<Name>CT 1000</Name>
-			<Dependency Software="Storage Drives">CASSETTE TAPE</Dependency>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Tape-Drive">1980</SoftwareCategory>
+			<SoftwareCategory Category="Cassette Bay">1980</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>5.25 IN FLOPPY DISK</Name>
@@ -78,7 +82,7 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Tape-Drive">1982</SoftwareCategory>
+			<SoftwareCategory Category="5 1/4 Bay">1982</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>3.5 IN FLOPPY DISK</Name>
@@ -90,7 +94,7 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Tape-Drive">1984</SoftwareCategory>
+			<SoftwareCategory Category="3.5 Bay">1984</SoftwareCategory>
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>HARD DRIVE</Name>
@@ -105,7 +109,7 @@
 			<SoftwareCategory Category="Hard-Drive">1986</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>10GB HD4500</Name>
+			<Name>10GB</Name>
 			<Dependency Software="Storage Drives">HARD DRIVE</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
@@ -129,7 +133,7 @@
 			<SoftwareCategory Category="Sata-Drive">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>100GB SSD6000</Name>
+			<Name>100GB</Name>
 			<Dependency Software="Storage Drives">SATA DRIVE</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>
@@ -153,7 +157,7 @@
 			<SoftwareCategory Category="Flash-Drive">1998</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>1TB FD9000</Name>
+			<Name>1TB</Name>
 			<Dependency Software="Storage Drives">FLASH DRIVE</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>Frame</Category>

@@ -23,5 +23,16 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
+		<Feature>
+			<Name>Audio</Name>
+			<Dependency Software="Audio Tool">8-Bit Audio</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
 	</Features>
 </SoftwareType>

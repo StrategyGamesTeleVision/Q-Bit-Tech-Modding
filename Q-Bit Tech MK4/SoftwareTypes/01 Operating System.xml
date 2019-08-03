@@ -93,7 +93,6 @@
 		</Feature>
 		<Feature From="Basic">
 			<Name>Ergo-Dynamic</Name>
-			<Dependency Software="Operating System">Keyboard Type</Dependency>
 			<Dependency Software="Keyboard">Ergo-Dynamic</Dependency>
 			<Description>Your Mainframe.</Description>
 			<Category>Frame</Category>
@@ -109,7 +108,6 @@
 		<Feature From="Ergo-Dynamic">
 			<Name>Gaming</Name>
 			<Unlock>1981</Unlock>
-			<Dependency Software="Operating System">Keyboard Type</Dependency>
 			<Dependency Software="Keyboard">Gaming</Dependency>
 			<Description>Your Mainframe.</Description>
 			<Category>Frame</Category>
@@ -153,10 +151,86 @@
 		</Feature>
 		<Feature From="Socket 1">
 			<Name>Pin 1</Name>
-			<Dependency Software="Operating System">Motherboard Type</Dependency>
 			<Dependency Software="Motherboard">Pin 1</Dependency>
 			<Dependency Software="Power Supply">500watts 48</Dependency>
 			<Description>The largest peice of hardware in the Mainframe</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Audio Type</Name>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>8-Bit Audio</Name>
+			<Unlock>1986</Unlock>
+			<Dependency Software="Operating System">Audio Type</Dependency>
+			<Dependency Software="Audio Tool">8-Bit Audio</Dependency>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="8-Bit Audio">
+			<Name>16-Bit Audio</Name>
+			<Unlock>1992</Unlock>
+			<Dependency Software="Operating System">8-Bit Audio</Dependency>
+			<Dependency Software="Audio Tool">16-Bit Audio</Dependency>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="16-Bit Audio">
+			<Name>HD Audio</Name>
+			<Unlock>1998</Unlock>
+			<Dependency Software="Operating System">16-Bit Audio</Dependency>
+			<Dependency Software="Audio Tool">HD Audio</Dependency>
+			<Description>Your visual aid that projects your input into visualization.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="HD Audio">
+			<Name>Surround Sound</Name>
+			<Unlock>2004</Unlock>
+			<Dependency Software="Operating System">HD Audio</Dependency>
+			<Dependency Software="Audio Tool">Surround Sound</Dependency>
+			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -197,7 +271,6 @@
 		</Feature>
 		<Feature From="Text Editor">
 			<Name>2D Editor</Name>
-			<Dependency Software="Operating System">Graphics Type</Dependency>
 			<Dependency Software="Graphics">2D RENDERING</Dependency>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
@@ -212,7 +285,6 @@
 		</Feature>
 		<Feature From="2D Editor">
 			<Name>3D Editor</Name>
-			<Dependency Software="Operating System">Graphics Type</Dependency>
 			<Dependency Software="Graphics">3D RENDERING</Dependency>
 			<Description>Your visual aid that projects your input into visualization.</Description>
 			<Category>Frame</Category>
@@ -255,7 +327,6 @@
 		</Feature>
 		<Feature From="SRAM">
 			<Name>DRAM</Name>
-			<Dependency Software="Operating System">Memory Type</Dependency>
 			<Dependency Software="Memory">DRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
@@ -270,7 +341,6 @@
 		</Feature>
 		<Feature From="DRAM">
 			<Name>SDRAM</Name>
-			<Dependency Software="Operating System">Memory Type</Dependency>
 			<Dependency Software="Memory">SDRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
@@ -285,7 +355,6 @@
 		</Feature>
 		<Feature From="SDRAM">
 			<Name>SDR SDRAM</Name>
-			<Dependency Software="Operating System">Memory Type</Dependency>
 			<Dependency Software="Memory">SDR SDRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
@@ -300,7 +369,6 @@
 		</Feature>
 		<Feature From="SDR SDRAM">
 			<Name>DDR SDRAM</Name>
-			<Dependency Software="Operating System">Memory Type</Dependency>
 			<Dependency Software="Memory">DDR SDRAM 100</Dependency>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
@@ -355,7 +423,7 @@
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Tape Storage1</Name>
+			<Name>Cassette Storage</Name>
 			<Dependency Software="Operating System">Storage Type</Dependency>
 			<Dependency Software="Storage Drives">CASSETTE TAPE</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
@@ -369,9 +437,8 @@
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature From="Tape Storage1">
-			<Name>Tape Storage2</Name>
-			<Dependency Software="Operating System">Storage Type</Dependency>
+		<Feature From="Cassette Storage">
+			<Name>5.25 Storage</Name>
 			<Dependency Software="Storage Drives">5.25 IN FLOPPY DISK</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
@@ -384,9 +451,8 @@
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature From="Tape Storage2">
-			<Name>Tape Storage3</Name>
-			<Dependency Software="Operating System">Storage Type</Dependency>
+		<Feature From="5.25 Storage">
+			<Name>3.5 Storage</Name>
 			<Dependency Software="Storage Drives">3.5 IN FLOPPY DISK</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
@@ -399,10 +465,10 @@
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature>
-			<Name>HD Storage1</Name>
-			<Dependency Software="Operating System">Storage Type</Dependency>
-			<Dependency Software="Storage Drives">10GB HD4500</Dependency>
+		<Feature From="3.5 Storage">
+			<Name>HD Storage</Name>
+			<Dependency Software="Storage Drives">10GB</Dependency>
+			<Dependency Software="Operating System">3.5 Storage</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -414,10 +480,9 @@
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature From="HD Storage1">
-			<Name>SSD Storage1</Name>
-			<Dependency Software="Operating System">Storage Type</Dependency>
-			<Dependency Software="Storage Drives">100GB SSD6000</Dependency>
+		<Feature From="HD Storage">
+			<Name>SSD Storage</Name>
+			<Dependency Software="Storage Drives">100GB</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>
@@ -429,10 +494,9 @@
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature From="SSD Storage1">
-			<Name>FD Storage1</Name>
-			<Dependency Software="Operating System">Storage Type</Dependency>
-			<Dependency Software="Storage Drives">1TB FD9000</Dependency>
+		<Feature From="SSD Storage">
+			<Name>Flash Storage1</Name>
+			<Dependency Software="Storage Drives">1TB</Dependency>
 			<Description>The housing that will keep your storage safe and sound from hackers ..... Or will it?</Description>
 			<Category>Frame</Category>
 			<DevTime>8</DevTime>

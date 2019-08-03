@@ -66,30 +66,6 @@
 		</Feature>
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>DRAM 100</Name>
-			<Unlock>1982</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="DRAM">1982</SoftwareCategory>
-		</Feature>
-		<Feature Forced="TRUE" Vital="TRUE">
-			<Name>SDRAM 100</Name>
-			<Unlock>1984</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<Category>System</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="SDRAM">1984</SoftwareCategory>
-		</Feature>
-		<Feature Forced="TRUE" Vital="TRUE">
-			<Name>SDR SDRAM 100</Name>
 			<Unlock>1986</Unlock>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
@@ -98,11 +74,11 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="SDR SDRAM">1986</SoftwareCategory>
+			<SoftwareCategory Category="DRAM">1986</SoftwareCategory>
 		</Feature>
 		<Feature Forced="TRUE" Vital="TRUE">
-			<Name>DDR SDRAM 100</Name>
-			<Unlock>1988</Unlock>
+			<Name>SDRAM 100</Name>
+			<Unlock>1992</Unlock>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
@@ -110,7 +86,31 @@
 			<Usability>1</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="DDR SDRAM">1988</SoftwareCategory>
+			<SoftwareCategory Category="SDRAM">1992</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>SDR SDRAM 100</Name>
+			<Unlock>1998</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SDR SDRAM">1998</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>DDR SDRAM 100</Name>
+			<Unlock>2004</Unlock>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="DDR SDRAM">2004</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>
