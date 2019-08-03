@@ -1,18 +1,26 @@
 <SoftwareType>
 	<Name>Motherboard</Name>
 	<Category>Hardware</Category>
-	<Description>A Hardware Component used for putting your peripherals</Description>
+	<Description>The main component of your PC that allows interfacing with all other devices.</Description>
 	<Random>0.1</Random>
 	<Categories>
-		<Category Name="Socket 1">
+		<Category Name="Socket">
 			<Description>Socket Based Motherboards.</Description>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
-		<Category Name="Pin 1">
+		<Category Name="Pin">
 			<Description>Pin Based Motherboards.</Description>
+			<Unlock>1981</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Multi-Socket">
+			<Description>Made for, and tested by gamers.</Description>
 			<Unlock>1986</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
@@ -31,7 +39,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Chipset</Name>
-			<Description>Actually display an image on the screen</Description>
+			<Description>A Type of Processor</Description>
 			<Category>System</Category>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -40,32 +48,47 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>Socket 1</Name>
+			<Name>Socket</Name>
 			<Dependency Software="Motherboard">Chipset</Dependency>
-			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
+			<Dependency Software="Heat Sinks">10MM FAN</Dependency>
 			<Dependency Software="Power Supply">500watts 24</Dependency>
-			<Description>Actually display an image on the screen</Description>
+			<Description>Socket form factor.</Description>
 			<Category>System</Category>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Socket 1">0</SoftwareCategory>
+			<SoftwareCategory Category="Socket">0</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Pin 1</Name>
+			<Name>Pin</Name>
+			<Unlock>1981</Unlock>
 			<Dependency Software="Motherboard">Chipset</Dependency>
-			<Dependency Software="Heat Sinks">Basic Fan</Dependency>
-			<Dependency Software="Power Supply">500watts 24</Dependency>
-			<Description>Actually display an image on the screen</Description>
+			<Dependency Software="Heat Sinks">10MM FAN</Dependency>
+			<Dependency Software="Power Supply">500watts 48</Dependency>
+			<Description>Pin form factor.</Description>
 			<Category>System</Category>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Pin 1">1986</SoftwareCategory>
+			<SoftwareCategory Category="Pin">1981</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Multi-Socket</Name>
+			<Dependency Software="Motherboard">Chipset</Dependency>
+			<Dependency Software="Heat Sinks">20MM FAN</Dependency>
+			<Dependency Software="Power Supply">600watts 48</Dependency>
+			<Description>Socket form factor.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Multi-Socket">0</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

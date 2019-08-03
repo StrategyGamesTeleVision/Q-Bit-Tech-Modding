@@ -5,14 +5,14 @@
 	<Random>0.1</Random>
 	<Categories>
 		<Category Name="QWERTY">
-			<Description>Socket Based Motherboards.</Description>
+			<Description>Basic Input</Description>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Gaming">
-			<Description>Pin Based Motherboards.</Description>
+			<Description>Gaming w/Input</Description>
 			<Unlock>1986</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>
@@ -20,7 +20,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Ergo-Dynamic">
-			<Description>Pin Based Motherboards.</Description>
+			<Description>For the office.</Description>
 			<Unlock>1992</Unlock>
 			<Popularity>1</Popularity>
 			<Retention>0.8</Retention>

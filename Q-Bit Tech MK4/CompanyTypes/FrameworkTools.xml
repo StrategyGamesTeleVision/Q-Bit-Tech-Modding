@@ -1,8 +1,8 @@
 <CompanyType>
 	<Specialization>Framework Tools</Specialization>
 	<PerYear>0.2</PerYear>
-	<Min>2</Min>
-	<Max>3</Max>
+	<Min>4</Min>
+	<Max>6</Max>
 	<Types>
 		<Type Software="Graphics">1</Type>
 		<Type Software="Memory">1</Type>

@@ -5,14 +5,14 @@
 	<Random>0.1</Random>
 	<Categories>
 		<Category Name="SRAM">
-			<Description>Socket Based Motherboards.</Description>
+			<Description>Single-rate RAM</Description>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="DRAM">
-			<Description>Socket Based Motherboards.</Description>
+			<Description>Double-rate RAM.</Description>
 			<Unlock>1986</Unlock>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
@@ -20,7 +20,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="SDRAM">
-			<Description>Socket Based Motherboards.</Description>
+			<Description>Synchronous DRAM.</Description>
 			<Unlock>1992</Unlock>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
@@ -28,7 +28,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="SDR SDRAM">
-			<Description>Socket Based Motherboards.</Description>
+			<Description>Single Data Rate SDRAM.</Description>
 			<Unlock>1998</Unlock>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
@@ -36,7 +36,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="DDR SDRAM">
-			<Description>Socket Based Motherboards.</Description>
+			<Description>Double Data Rate SDRAM.</Description>
 			<Unlock>2004</Unlock>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
@@ -55,7 +55,7 @@
 	<Features>
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>SRAM 100</Name>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -67,7 +67,7 @@
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>DRAM 100</Name>
 			<Unlock>1986</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -79,7 +79,7 @@
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>SDRAM 100</Name>
 			<Unlock>1992</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -91,7 +91,7 @@
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>SDR SDRAM 100</Name>
 			<Unlock>1998</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
@@ -103,7 +103,7 @@
 		<Feature Forced="TRUE" Vital="TRUE">
 			<Name>DDR SDRAM 100</Name>
 			<Unlock>2004</Unlock>
-			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Description>.</Description>
 			<Category>System</Category>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>

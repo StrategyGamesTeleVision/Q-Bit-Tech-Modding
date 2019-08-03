@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Processor</Name>
 	<Category>Hardware</Category>
-	<Description>A Hardware Component used for putting your peripherals</Description>
+	<Description>A component of the motherboard that helps process information quickly and reliably.</Description>
 	<Random>0.1</Random>
 	<Categories>
 		<Category Name="Single-Core">

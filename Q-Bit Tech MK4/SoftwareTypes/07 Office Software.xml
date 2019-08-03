@@ -2,6 +2,7 @@
 	<Name>Office Software</Name>
 	<Category>Productivity</Category>
 	<Description></Description>
+	<Unlock>3000</Unlock>
 	<Random>0.2</Random>
 	<Popularity>0.7</Popularity>
 	<Retention>0.4</Retention>

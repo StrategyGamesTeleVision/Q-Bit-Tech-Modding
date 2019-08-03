@@ -4,6 +4,6 @@
 	<Min>1</Min>
 	<Max>3</Max>
 	<Types>
-		<Type Software="Motherboard" Category="Socket">1</Type>
+		<Type Software="Motherboard" Category="Multi-Socket">1</Type>
 	</Types>
 </CompanyType>

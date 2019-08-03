@@ -1,9 +1,9 @@
 <CompanyType>
 	<Specialization>Motherboard Pin</Specialization>
 	<PerYear>0.2</PerYear>
-	<Min>2</Min>
+	<Min>1</Min>
 	<Max>3</Max>
 	<Types>
-		<Type Software="Motherboard" Category="Pin 1">1</Type>
+		<Type Software="Motherboard" Category="Pin">1</Type>
 	</Types>
 </CompanyType>
