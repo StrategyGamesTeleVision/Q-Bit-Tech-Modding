@@ -18,11 +18,12 @@
 			<Name>2D Rendering</Name>
 			<Description>Actually display an image on the screen</Description>
 			<Category>2D</Category>
+			<ArtCategory>2D</ArtCategory>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>.5</CodeArt>
 		</Feature>
 	</Features>
 </SoftwareType>

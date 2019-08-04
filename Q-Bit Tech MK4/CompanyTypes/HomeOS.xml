@@ -1,9 +1,9 @@
 <CompanyType>
 	<Specialization>Computer Operating Systems</Specialization>
 	<Force>Operating System,Home OS</Force>
-	<PerYear>0.3</PerYear>
-	<Min>3</Min>
-	<Max>6</Max>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
 	<Types>
 		<Type Software="Operating System" Category="Home OS">1</Type>
 	</Types>

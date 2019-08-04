@@ -17,7 +17,7 @@
 			<Dependency Software="Text Editor">Text Rendering</Dependency>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -29,11 +29,12 @@
 			<Dependency Software="2D Editor">2D Rendering</Dependency>
 			<Description>Allows you to see South-Park episodes.</Description>
 			<Category>2D</Category>
-			<DevTime>8</DevTime>
+			<ArtCategory>2D</ArtCategory>
+			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
 		</Feature>
 		<Feature From="2D RENDERING" Vital="TRUE">
 			<Name>3D RENDERING</Name>
@@ -41,11 +42,12 @@
 			<Dependency Software="3D Editor">3D Rendering</Dependency>
 			<Description>We can finally see the Super Bowl live.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>4</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE" Research="3D RENDERING">
 			<Name>VR READY</Name>
@@ -53,11 +55,12 @@
 			<Dependency Software="Graphics">3D RENDERING</Dependency>
 			<Description>Hopefully "The Lawn-mower Man" doesnt get us!!!!</Description>
 			<Category>System</Category>
+			<ArtCategory>3D</ArtCategory>
 			<DevTime>8</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
 		</Feature>
 	</Features>
 </SoftwareType>

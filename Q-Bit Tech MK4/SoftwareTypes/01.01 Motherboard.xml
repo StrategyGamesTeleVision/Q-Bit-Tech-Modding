@@ -41,7 +41,7 @@
 			<Name>Chipset</Name>
 			<Description>A Type of Processor</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -54,7 +54,7 @@
 			<Dependency Software="Power Supply">500watts 24</Dependency>
 			<Description>Socket form factor.</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -69,7 +69,7 @@
 			<Dependency Software="Power Supply">500watts 48</Dependency>
 			<Description>Pin form factor.</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -83,7 +83,7 @@
 			<Dependency Software="Power Supply">600watts 48</Dependency>
 			<Description>Socket form factor.</Description>
 			<Category>System</Category>
-			<DevTime>3</DevTime>
+			<DevTime>6</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>

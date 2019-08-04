@@ -2,7 +2,7 @@
 	<Name>Operating System</Name>
 	<Category>Computing</Category>
 	<Description>The Software that will run your programs.</Description>
-	<Random>0</Random>
+	<Random>0.1</Random>
 	<Categories>
 		<Category Name="Home OS">
 			<Description>Home Computer designed to keep your kids busy doing their non-existent homework.</Description>
@@ -13,7 +13,7 @@
 		</Category>
 		<Category Name="Gaming OS">
 			<Unlock>1986</Unlock>
-			<Description>What did you think?  Your High-scores were just in a cloud some where?</Description>
+			<Description>Gaming OS specifically designed for gaming.</Description>
 			<Popularity>0.8</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>1</TimeScale>
@@ -31,17 +31,17 @@
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
-	<IdealPrice>200</IdealPrice>
+	<IdealPrice>100</IdealPrice>
 	<NameGenerator>OS</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Computer Housing</Name>
 			<Description>Basic form factor of how your computer parts will fit in the tower.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -51,10 +51,10 @@
 			<Name>Keyboard Type</Name>
 			<Description>Type of Keyboard.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -66,10 +66,10 @@
 			<Dependency Software="Keyboard">QWERTY</Dependency>
 			<Description>Your basic QWERTY keyboard, used by many users.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>0.5</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -80,12 +80,12 @@
 			<Dependency Software="Keyboard">Ergo-Dynamic</Dependency>
 			<Description>Tired of getting arthritis?.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Home OS">1992</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -94,10 +94,10 @@
 			<Dependency Software="Keyboard">Gaming</Dependency>
 			<Description>Gamers meet your new buddy.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 		</Feature>
@@ -105,10 +105,10 @@
 			<Name>Motherboard Type</Name>
 			<Description>The largest peice of hardware in the Mainframe</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -121,9 +121,9 @@
 			<Dependency Software="Power Supply">500watts 24</Dependency>
 			<Description>A Socket based Motherboard.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
@@ -136,10 +136,10 @@
 			<Dependency Software="Power Supply">500watts 48</Dependency>
 			<Description>A Pin based Motherboard</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1981</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -151,9 +151,9 @@
 			<Dependency Software="Power Supply">500watts 48</Dependency>
 			<Description>A Pin based Motherboard</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -162,10 +162,10 @@
 			<Name>Audio Type</Name>
 			<Description>Your Audio input/output</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -178,10 +178,11 @@
 			<Dependency Software="Audio Tool">8-Bit Audio</Dependency>
 			<Description>.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<ArtCategory>Audio</ArtCategory>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -194,11 +195,12 @@
 			<Dependency Software="Audio Tool">16-Bit Audio</Dependency>
 			<Description>.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<ArtCategory>Audio</ArtCategory>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -210,11 +212,12 @@
 			<Dependency Software="Audio Tool">HD Audio</Dependency>
 			<Description>.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<ArtCategory>Audio</ArtCategory>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -226,11 +229,12 @@
 			<Dependency Software="Audio Tool">Surround Sound</Dependency>
 			<Description>.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<ArtCategory>Audio</ArtCategory>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -239,10 +243,10 @@
 			<Name>Graphics Type</Name>
 			<Description>Your Graphics Input/Output.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -253,12 +257,12 @@
 			<Dependency Software="Operating System">Graphics Type</Dependency>
 			<Dependency Software="Graphics">TEXT BASED</Dependency>
 			<Description>Terminal based software to allow text to be seen.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<Stability>1</Stability>
+			<CodeArt>.5</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -267,12 +271,13 @@
 			<Name>2D Editor</Name>
 			<Dependency Software="Graphics">2D RENDERING</Dependency>
 			<Description>2D based software to allow text to be seen.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<Category>2D</Category>
+			<ArtCategory>2D</ArtCategory>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -281,12 +286,13 @@
 			<Name>3D Editor</Name>
 			<Dependency Software="Graphics">3D RENDERING</Dependency>
 			<Description>3D based software to allow text to be seen.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<Category>3D</Category>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
 			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
@@ -295,12 +301,13 @@
 			<Name>VR</Name>
 			<Dependency Software="3D Editor">VR</Dependency>
 			<Description>VR based software to allow you to enter a world that you have never seen.</Description>
-			<Category>VR</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
+			<Category>3D</Category>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 		</Feature>
@@ -308,10 +315,10 @@
 			<Name>Memory Type</Name>
 			<Description>Without memory how will your information be stored and recalled for later use?</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -322,11 +329,11 @@
 			<Dependency Software="Operating System">Memory Type</Dependency>
 			<Dependency Software="Memory">SRAM 100</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -336,11 +343,11 @@
 			<Name>DRAM</Name>
 			<Dependency Software="Memory">DRAM 100</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -350,10 +357,10 @@
 			<Name>SDRAM</Name>
 			<Dependency Software="Memory">SDRAM 100</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
@@ -364,11 +371,11 @@
 			<Name>SDR SDRAM</Name>
 			<Dependency Software="Memory">SDR SDRAM 100</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -378,11 +385,11 @@
 			<Name>DDR SDRAM</Name>
 			<Dependency Software="Memory">DDR SDRAM 100</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -392,10 +399,10 @@
 			<Name>Processor Type</Name>
 			<Description>The Heartbeat of your computer.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -406,11 +413,56 @@
 			<Dependency Software="Operating System">Processor Type</Dependency>
 			<Dependency Software="Processor">L1 100KB</Dependency>
 			<Description>Single-Core processing</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Single-Core">
+			<Name>Double-Core</Name>
+			<Unlock>1986</Unlock>
+			<Dependency Software="Processor">L2 1MB</Dependency>
+			<Description>Double-Core processing</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Double-Core">
+			<Name>Triple-Core</Name>
+			<Unlock>1992</Unlock>
+			<Dependency Software="Processor">L3 1.5MB</Dependency>
+			<Description>Triple-Core processing</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
 			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
+		</Feature>
+		<Feature From="Triple-Core">
+			<Name>Quad-Core</Name>
+			<Unlock>1998</Unlock>
+			<Dependency Software="Processor">L4 2MB</Dependency>
+			<Description>Quad-Core processing</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -420,10 +472,10 @@
 			<Name>Storage Type</Name>
 			<Description>Keep your storage safe and sound from hackers ..... Or else!</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -434,11 +486,11 @@
 			<Dependency Software="Operating System">Storage Type</Dependency>
 			<Dependency Software="Storage Drives">CASSETTE TAPE</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -448,11 +500,11 @@
 			<Name>5.25 Storage</Name>
 			<Dependency Software="Storage Drives">5.25 IN FLOPPY DISK</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -462,11 +514,11 @@
 			<Name>3.5 Storage</Name>
 			<Dependency Software="Storage Drives">3.5 IN FLOPPY DISK</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -477,10 +529,10 @@
 			<Dependency Software="Storage Drives">10GB</Dependency>
 			<Dependency Software="Operating System">3.5 Storage</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
@@ -491,11 +543,11 @@
 			<Name>SSD Storage</Name>
 			<Dependency Software="Storage Drives">100GB</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
@@ -505,25 +557,25 @@
 			<Name>Flash Storage</Name>
 			<Dependency Software="Storage Drives">1TB</Dependency>
 			<Description>.</Description>
-			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Category>System</Category>
+			<DevTime>7</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>8</Usability>
+			<Stability>8</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
-			<Name>Power Supply</Name>
+			<Name>Power Supply Type</Name>
 			<Dependency Software="Power Supply">500watts 24</Dependency>
 			<Description>.</Description>
 			<Category>Frame</Category>
-			<DevTime>8</DevTime>
-			<Innovation>0</Innovation>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>4</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
 			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>

@@ -52,18 +52,28 @@
 			<Retention>0.3</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>0.95</Iterative>
-			<Unlock>1990</Unlock>
+			<Unlock>1992</Unlock>
 			<NameGenerator>GameFPS</NameGenerator>
 		</Category>
 	</Categories>
 	<OSSpecific>True</OSSpecific>
-	<OSNeed>Game Engine</OSNeed>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Text-based</Name>
 			<Category>System</Category>
+			<Description>Make the player type a novel to complete the game</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Text-based">
+			<Name>Text Engine</Name>
+			<Category>System</Category>
+			<Dependency Software="Game Engine">Text-based</Dependency>
 			<Description>Make the player type a novel to complete the game</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>

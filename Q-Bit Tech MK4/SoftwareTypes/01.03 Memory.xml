@@ -57,7 +57,7 @@
 			<Name>SRAM 100</Name>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -69,7 +69,7 @@
 			<Unlock>1986</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -81,7 +81,7 @@
 			<Unlock>1992</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -93,7 +93,7 @@
 			<Unlock>1998</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>5</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -105,7 +105,7 @@
 			<Unlock>2004</Unlock>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>6</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>

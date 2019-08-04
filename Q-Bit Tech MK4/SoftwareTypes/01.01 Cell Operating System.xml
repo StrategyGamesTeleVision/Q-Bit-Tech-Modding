@@ -24,7 +24,7 @@
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
-	<IdealPrice>200</IdealPrice>
+	<IdealPrice>100</IdealPrice>
 	<NameGenerator>OS</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">

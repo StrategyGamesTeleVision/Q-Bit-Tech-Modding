@@ -41,7 +41,7 @@
 			<Name>QWERTY</Name>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -52,7 +52,7 @@
 			<Name>Gaming</Name>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -63,7 +63,7 @@
 			<Name>Ergo-Dynamic</Name>
 			<Description>.</Description>
 			<Category>System</Category>
-			<DevTime>8</DevTime>
+			<DevTime>6</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>

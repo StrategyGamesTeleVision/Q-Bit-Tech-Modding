@@ -1,8 +1,8 @@
 <CompanyType>
 	<Specialization>Storage</Specialization>
 	<PerYear>0.1</PerYear>
-	<Min>1</Min>
-	<Max>2</Max>
+	<Min>4</Min>
+	<Max>8</Max>
 	<Types>
 		<Type Software="Storage Drives">1</Type>
 	</Types>

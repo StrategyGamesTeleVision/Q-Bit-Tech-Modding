@@ -4,9 +4,9 @@
 	<Min>4</Min>
 	<Max>8</Max>
 	<Types>
-		<Type Software="Audio Tool">1</Type>
-		<Type Software="Text Editor">1</Type>
-		<Type Software="2D Editor">1</Type>
-		<Type Software="3D Editor">1</Type>
+		<Type Software="Audio Tool">0.25</Type>
+		<Type Software="Text Editor">0.25</Type>
+		<Type Software="2D Editor">0.25</Type>
+		<Type Software="3D Editor">0.25</Type>
 	</Types>
 </CompanyType>
