@@ -27,22 +27,6 @@
 			<TimeScale>0.8</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
-		<Category Name="Office Phone OS">
-			<Unlock>1992</Unlock>
-			<Description>How do you expect your conference calls to go through?</Description>
-			<Popularity>1</Popularity>
-			<Retention>0.8</Retention>
-			<TimeScale>0.7</TimeScale>
-			<Iterative>1</Iterative>
-		</Category>
-		<Category Name="Cell Phone OS">
-			<Unlock>1998</Unlock>
-			<Description>A small but useable OS for phone users in the late 90s.</Description>
-			<Popularity>1</Popularity>
-			<Retention>0.8</Retention>
-			<TimeScale>0.7</TimeScale>
-			<Iterative>1</Iterative>
-		</Category>
 	</Categories>
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
@@ -102,10 +86,9 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
-			<SoftwareCategory Category="Gaming OS">1986</SoftwareCategory>
 			<SoftwareCategory Category="Office OS">1992</SoftwareCategory>
 		</Feature>
-		<Feature From="Ergo-Dynamic">
+		<Feature>
 			<Name>Gaming</Name>
 			<Unlock>1986</Unlock>
 			<Dependency Software="Keyboard">Gaming</Dependency>

@@ -1,0 +1,16 @@
+-start(base)
+-base(base2,base2,ext)
+Intel
+AMD
+NVidia
+QualComm
+Acer
+Motorola
+HP
+-base2(stop,stop,ext)
+ Juiced
+ Sting
+ Thread Ripper
+-ext(stop)
+ 2.5 GHZ
+ 3.2 GHZ

@@ -35,7 +35,7 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<Iterative>1</Iterative>
-	<NameGenerator>2DEditor</NameGenerator>
+	<NameGenerator>Motherboards</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Chipset</Name>

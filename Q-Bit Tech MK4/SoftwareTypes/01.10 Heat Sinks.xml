@@ -10,7 +10,7 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<Iterative>1</Iterative>
-	<NameGenerator>2DEditor</NameGenerator>
+	<NameGenerator>HeatSinks</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>10MM FAN</Name>
